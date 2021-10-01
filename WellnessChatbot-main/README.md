@@ -1,6 +1,6 @@
 # WellnessChatbot for Mental Health
 정신건강을 위한 한국어 상담 챗봇입니다 🙂
-21.10.01기준 실행 가능합니다.
+21.10.01 기준 실행 가능합니다.
 
 fine-tuning한 모델을 [huggingface🤗](https://huggingface.co/eunjin/kogpt2-finetuned-wellness)에 업로드하였습니다.
 
