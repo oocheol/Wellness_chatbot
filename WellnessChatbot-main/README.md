@@ -1,6 +1,6 @@
 # WellnessChatbot for Mental Health
 정신건강을 위한 한국어 상담 챗봇입니다 🙂
-(2021.06.10) 현재 실행 가능한 [Demo](https://share.streamlit.io/eunjiinkim/wellnesschatbot/main)입니다.
+21.10.01기준 실행 가능한 [Demo](https://share.streamlit.io/eunjiinkim/wellnesschatbot/main)입니다.
 
 fine-tuning한 모델을 [huggingface🤗](https://huggingface.co/eunjin/kogpt2-finetuned-wellness)에 업로드하였습니다.
 
@@ -87,6 +87,7 @@ python3 chat.py --chat
 fine-tuning한 모델이 directory 안에 저장되어있어야 합니다.
 
 # Reference
+* Wellness 챗봇: https://github.com/eunjiinkim/WellnessChatbot
 * KoGPT2 chitchat: https://github.com/haven-jeon/KoGPT2-chatbot
 * wellness datasets: https://aihub.or.kr/keti_data_board/language_intelligence
 * Chitchat datasets: https://github.com/songys/Chatbot_data
