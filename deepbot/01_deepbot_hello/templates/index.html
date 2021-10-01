@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ko">
+
+<head>
+  <meta charset="utf-8">
+  <title>Javis</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+</head>
+
+<body>
+  <div class="container">
+    <div class="ai-container">
+      <div class="ai-header">
+        <img class="logo" src="images\logo_a.png">
+      </div>
+      <div class="ai-main-display">
+        <img class="" id="ai_wave" src="images/javis.gif"  width="100%" height="100%" >
+        <img class="noshow" id="ai_image" src="images/teachers.jpg">
+        <iframe class="noshow" id="ai_youtube" width="100%" height="100%" src="https://www.youtube.com/embed/ZzPVX-gJqr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <video class="noshow" id="ai_video" width="100%" height="100%" controls>
+          <source src="mp4/chatbot.mp4" type="video/mp4">
+        </video>
+
+        <div id="loading" class="noshow" style="display: none"></div>
+        <div id="main" class="" style="user-select: auto;" width="100%" height="100%" >
+          <video id="video" playsinline="" style="transform: scaleX(-1); display: none; user-select: auto;" width="600" height="500">
+          </video>
+          <canvas id="output" class="noshow" width="100%" height="100%" style="user-select: auto;">
+          </canvas>
+          <div style="position: fixed; top: 0px; left: 0px; cursor: pointer; opacity: 0.9; z-index: 10000;"><canvas width="160" height="96" style="width: 80px; height: 48px; display: block;"></canvas><canvas width="160" height="96" style="width: 80px; height: 48px; display: none;"></canvas><canvas
+              width="160" height="96" style="width: 80px; height: 48px; display: none;"></canvas></div>
+        </div>
+      </div>
+      <div class="ai-meta-display">
+        <p class="text">안녕하세요. JAVIS입니다.</p>
+        <!-- <p class="text">저에게 말을 걸어주세요.</p> -->
+      </div>
+    </div>
+    
+    <div class="user-container">
+      <input class="" id="user_message" type="text" placeholder="대화를 입력하세요." /> <!-- 유저부분 -->
+      <button class="noshow" id="mic" >MIC</button> <!-- (마이크 숨기기> noshow class >) -->
+    </div>
+    
+    <div class="history">
+    </div>
+  </div>
+</body>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+</html>
