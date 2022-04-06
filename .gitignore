@@ -1,3 +1,6 @@
+# 학습모델
+/lightning_logs
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
