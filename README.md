@@ -1,6 +1,11 @@
+# 라이브러리 버전에 따른 오류 주의
+라이브러리 설치시에는
+'pip install -r requirements.txt'를 활용하여
+같은 버전의 라이브러리를 설치해야 오류없이 진행됩니다.
+
 # WellnessChatbot for Mental Health
 정신건강을 위한 한국어 상담 챗봇입니다 🙂
-21.10.01 기준 실행 가능합니다.
+22.04.06 기준 실행 가능합니다.
 
 fine-tuning한 모델을 [huggingface🤗](https://huggingface.co/eunjin/kogpt2-finetuned-wellness)에 업로드하였습니다.
 
