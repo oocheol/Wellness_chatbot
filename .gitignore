@@ -1,6 +1,7 @@
 # 학습모델
 /lightning_logs
 /model_chp_last
+/finetuned_model
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
