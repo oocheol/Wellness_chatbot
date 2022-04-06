@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-
 import streamlit as st
 from transformers import GPT2LMHeadModel, PreTrainedTokenizerFast
 import torch
+
+# streamlit run streamlit_app.py
 
 model = GPT2LMHeadModel.from_pretrained('eunjin/kogpt2-finetuned-wellness')
 
