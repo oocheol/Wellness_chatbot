@@ -1,6 +1,9 @@
 # 라이브러리 버전에 따른 오류 주의
 라이브러리 설치시에는
-'pip install -r requirements.txt'를 활용하여
+```bash
+pip install -r requirements.txt
+```
+위 코드를 활용하여
 같은 버전의 라이브러리를 설치해야 오류없이 진행됩니다.
 
 # WellnessChatbot for Mental Health
